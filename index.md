@@ -18,4 +18,4 @@
 * Error: An error was thrown because you cannot set your working directory to a file path.
 * The output resulted in an error because the file path used after the "cd" command is not the path to a directory.
 
-[Page 2](https://margaretwj.github.io/cse15l-lab-reports/new.html)
+[Next](https://margaretwj.github.io/cse15l-lab-reports/new.html)
