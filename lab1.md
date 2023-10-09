@@ -38,6 +38,12 @@
 * Error: none
 * When given a file path, the ls command list out the name of the file that is given. In the example above, the file path to the file en-us.txt returns "en-us.txt".
 
+# **cat Command** <br />
+
+**Example with no argument** <br />
+
+
+
 
 
 
