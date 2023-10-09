@@ -10,6 +10,6 @@
 ![Image](cd_directory.png)
 * Working directory: /home
 * Error: none
-* By giving the command "cd" followed by the path to a working directory in the "messages" folder, the working directory is now set to **/home/lecture1/messages<mark/** instead of **/home<mark/**. 
+* By giving the command "cd" followed by the path to a working directory in the "messages" folder, the working directory is now set to */home/lecture1/messages* instead of */home*. 
 
 [Page 2](https://margaretwj.github.io/cse15l-lab-reports/new.html)
