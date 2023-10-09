@@ -33,5 +33,12 @@
 * Giving the ls command a path that leads to a directory will list out all the files and folders of the given directory. As shown above, the directory for /home/lecture1/messages contains files en-us.txt, es-mx.txt, sv.txt, and zh-cn.txt.
 
 **Example using path to a file** <br />
+![Image](ls_file.png)
+* Working directory: /home/lecture1/messages
+* Error: none
+* When given a file path, the ls command list out the name of the file that is given. In the example above, the file path to the file en-us.txt returns "en-us.txt".
+
+
+
 
 
