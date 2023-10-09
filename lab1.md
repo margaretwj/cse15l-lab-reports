@@ -47,8 +47,8 @@ Mon 4 PM - 6 PM Section
 **Example with no argument** <br />
 ![Image](cat_noarg.png)
 * Working directory: /home/lecture1
-* Error: Using the "cat" command with no arguments does not produce an output and instead waits for the user to input something into the terminal. Therefore, using this command with no argument does not have a use. 
-* Instead of an output, the terminal waits for the user to type a file name to use cat with or to exit the program. With no arguement, the cat function doesn't have anything to return. 
+* Error: none 
+* Using the "cat" command with no arguments does not produce an output and instead waits for the user to input something into the terminal or exit out of the program. 
 
 **Example using path to a directory** <br />
 ![Image](cat_directory.png)
