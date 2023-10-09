@@ -1,6 +1,6 @@
-#LAB 1
-Margaret Jones
-Mon 4 PM - 6 PM Section
+# LAB 1 <br />
+Margaret Jones <br />
+Mon 4 PM - 6 PM Section <br />
 
 # **"cd" Command** <br />
 
