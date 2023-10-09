@@ -27,5 +27,11 @@
 * Using the ls command with no argument will list out the files and folders of whatever working directory you are in. In this case, /home/lecture1 contains files *Hello.class*, *Hello.java*, *messages*, and *README*. 
 
 **Example using path to a directory** <br />
+![Image](ls_directory.png)
+* Working directory: /home/lecture1
+* Error: none
+* Giving the ls command a path that leads to a directory will list out all the files and folders of the given directory. As shown above, the directory for /home/lecture1/messages contains files en-us.txt, es-mx.txt, sv.txt, and zh-cn.txt.
+
+**Example using path to a file** <br />
 
 
