@@ -47,8 +47,15 @@
 * Instead of an output, the terminal waits for the user to type a file name to use cat with or to exit the program. With no arguement, the cat function doesn't have anything to return. 
 
 **Example using path to a directory** <br />
+![Image](cat_directory.png)
+* Working directory: /home/lecture1
+* Error: Using a path to a directory with the "cat" command does not give a file path for cat to print and therefore, throws an error.
+* As shown above, using a path to a directory just returns the response that the directory path "Is a directory". This is because cat works with printing the contents of files, not directories.
+
+**Example using path to a directory** <br />
 
 
+  
 
 
 
