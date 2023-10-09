@@ -1,6 +1,6 @@
 # **"cd" Command** <br />
 
-**Example using no arguments** <br />
+## Example using no arguments <br />
 ![Image](cd_noarg.png)
 * Working directory: /home
 * Error: none
