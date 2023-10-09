@@ -1,3 +1,7 @@
+#LAB 1
+Margaret Jones
+Mon 4 PM - 6 PM Section
+
 # **"cd" Command** <br />
 
 **Example using no arguments** <br />
@@ -30,7 +34,7 @@
 ![Image](ls_directory.png)
 * Working directory: /home/lecture1
 * Error: none
-* Giving the ls command a path that leads to a directory will list out all the files and folders of the given directory. As shown above, the directory for /home/lecture1/messages contains files en-us.txt, es-mx.txt, sv.txt, and zh-cn.txt.
+* Giving the ls command a path that leads to a directory will list out all the files and folders of the given directory. As shown above, the directory for /home/lecture1/messages contains files *en-us.txt*, *es-mx.txt*, *sv.txt*, and *zh-cn.txt*.
 
 **Example using path to a file** <br />
 ![Image](ls_file.png)
@@ -53,7 +57,10 @@
 * As shown above, using a path to a directory just returns the response that the directory path "Is a directory". This is because cat works with printing the contents of files, not directories.
 
 **Example using path to a directory** <br />
-
+![Image](cat_file.png)
+* Working directory: /home/lecture1
+* Error: none
+* The output prints the contents of the file, *sv.txt*, from the given file path. In this case, the file *sv.txt* contained the phrase "Hej världen!". 
 
   
 
