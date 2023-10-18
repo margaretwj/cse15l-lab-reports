@@ -5,10 +5,10 @@ Mon 4 PM - 6 PM Section <br />
 # **"cd" Command** <br />
 
 **Example using no arguments** <br />
-![Image](cd_noarg.png)
-* Working directory: /home
+![Image](cd_noarg_redo.png)
+* Working directory: /home/lecture1/messages
 * Error: none
-* The example above demonstrates when there are no arguments given (ie. file paths) for the cd function. When no path is given, the cd command will keep the same working directory as before. 
+* The example above demonstrates when there are no arguments given (ie. file paths) for the cd function. When no path is given, the cd command switches the working directory back to the home directory which in this case is */home*. 
 
 **Example using path to a directory** <br />
 ![Image](cd_directory.png)
