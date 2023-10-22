@@ -1,8 +1,8 @@
-## **Lab Report 2** <br />
+# **Lab Report 2** <br />
 Margaret Jones <br />
 Monday 4PM - 6PM <br />
 
-# **Part1** 
+## **PART 1** 
 
 ## **StringServer Code** <br />
 ![Image](StringServerCode.png)
