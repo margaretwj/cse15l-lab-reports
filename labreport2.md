@@ -1,6 +1,6 @@
 # **Part1** 
 
-**StringServer Code**
+## **StringServer Code** <br />
 ![Image](StringServerCode.png)
 
 # **Part2**
