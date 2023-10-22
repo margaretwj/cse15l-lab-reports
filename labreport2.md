@@ -4,7 +4,7 @@ Monday 4PM - 6PM <br />
 
 ## **PART 1** 
 
-## **StringServer Code** <br />
+## **StringServer Code:** <br />
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -44,7 +44,11 @@ class StringServer {
 ![Image](addmessages(ex1).png)
 
 
-# **Part2**
+# **Part2** <br />
+
+## **Login to course-specific account on ieng6 without the password:** <br />
 ![Image](no_pass_serv.png)
 
-# **Part3**
+# **Part3** <br />
+
+This week in lab, I learned how to use the command "scp" in order to copy a directory from one server into another. It does so by using ssh and a file path from another server to securely copy the directory or files. 
