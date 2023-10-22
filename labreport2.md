@@ -46,6 +46,9 @@ class StringServer {
 
 # **Part2** <br />
 
+## **id public and private**
+![Image](id_pub_priv.png)
+
 ## **Login to course-specific account on ieng6 without the password:** <br />
 ![Image](no_pass_serv.png)
 
