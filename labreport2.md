@@ -40,6 +40,9 @@ class StringServer {
     }
 }
 ```
+## **add-messages ex. 1**
+![Image](addmessages(ex1).png)
+
 
 # **Part2**
 ![Image](no_pass_serv.png)
