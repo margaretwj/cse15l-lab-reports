@@ -5,8 +5,6 @@ Monday 4PM - 6PM <br />
 ## **PART 1** 
 
 ## **StringServer Code** <br />
-
-# code block
 ```
 import java.io.IOException;
 import java.net.URI;
