@@ -58,8 +58,8 @@ class StringServer {
 
 ## **PART 2** <br />
 
-## **id public and private**
-![Image](id_pub_priv.png)
+## **Id public and private**
+![Image](id_pub_priv.png) <br />
 Using the path */Users/margaretjones/.ssh* I was able to find both the private key (id_rsa) and public key (id_rsa.pub) for my SSH key to login to ieng6. 
 
 ## **Login to course-specific account on ieng6 without the password:** <br />
