@@ -42,8 +42,8 @@ class StringServer {
 ```
 ## **add-messages ex. 1**
 ![Image](addmessages(ex1).png)
-* The handleRequest(URI url) method is being called when using this example of add-message.
-* The relevant argument for this example is the url path used to implement the change which is at the top of the screenshot (https://0-0-0-0-4000-3d6cm9eirt3f4tve85mtlj5l3c.us.edusercontent.com/add-messages?s=Bonjour). The part of this URL that inacts change is the path and query: "add-messages?s=Bonjour". Additionally, the relevant fields of the class are stringData and num which keep track of the messages that the user of the server inputs and the number of strings that are added.
+* The **handleRequest(URI url) method** is being called when using this example of add-message.
+* The relevant argument for this example is the url path used to implement the change which is at the top of the screenshot (https://0-0-0-0-4000-3d6cm9eirt3f4tve85mtlj5l3c.us.edusercontent.com/add-messages?s=Bonjour). The part of this URL that inacts change is the path and query: **"add-messages?s=Bonjour"**. Additionally, the relevant fields of the class are **stringData** and **num** which keep track of the messages that the user of the server inputs and the number of strings that are added.
 * When given the request: *add-message?s=Bonjour*
 *     stringData changes from "" to "Bonjour"
 *     num changes from the integer, 1 to 2
