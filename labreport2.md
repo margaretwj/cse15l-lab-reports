@@ -45,7 +45,7 @@ class StringServer {
 * The **handleRequest(URI url) method** is being called when using this example of add-message.
 * The relevant argument for this example is the url path used to implement the change which is at the top of the screenshot (https://0-0-0-0-4000-3d6cm9eirt3f4tve85mtlj5l3c.us.edusercontent.com/add-messages?s=Bonjour). The part of this URL that inacts change is the path and query: **"add-messages?s=Bonjour"**. Additionally, the relevant fields of the class are **stringData** and **num** which keep track of the messages that the user of the server inputs and the number of strings that are added.
 * When given the request: *add-message?s=Bonjour*
-*     stringData changes from "" to "Bonjour"
+*     stringData changes from "" to "1. Bonjour\n"
 *     num changes from the integer, 1 to 2 
 
 ## **add-message ex. 2**
@@ -56,7 +56,7 @@ class StringServer {
 *     stringData changes from "1. Bonjour\n2. tout\n3.le\n" to "1. Bonjour\n2. tout\n3.le\n4. monde"
 *     num changes from the integer, 4 to 5
 
-# **Part2** <br />
+## **PART 2** <br />
 
 ## **id public and private**
 ![Image](id_pub_priv.png)
@@ -65,6 +65,6 @@ Using the path */Users/margaretjones/.ssh* I was able to find both the private k
 ## **Login to course-specific account on ieng6 without the password:** <br />
 ![Image](no_pass_serv.png)
 
-# **Part3** <br />
+## **PART 3** <br />
 
-This week in lab, I learned how to use the command "scp" in order to copy a directory from one server into another. This command does so by using ssh and a file path from another server to securely copy the directory or files. We learned about this command while setting up our SSH keys to login to our course specific account in ieng6 without having to enter the password every time. 
+This week in lab, I learned how to use the command "scp" in order to copy a directory from one server into another. This command does so by using ssh and a file path from another server to securely copy a directory or files. We learned about this command while setting up our SSH keys to login to our course specific account in ieng6 without having to enter the password every time. 
