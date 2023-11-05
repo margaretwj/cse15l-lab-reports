@@ -17,8 +17,8 @@ Monday 4PM - 6PM <br />
     static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) { 
       arr[i] = arr[arr.length - i - 1];
+      }
     }
-  }
   ```
 * **Non-failure inducing input:** the non-empty integer array { 3 }
 * Non-failure inducing test code:
