@@ -47,4 +47,6 @@ Monday 4PM - 6PM <br />
   * *Explanation of bug fix:* The bug for this code was that the array was being iterated through (arr.length many times) and swapped which then caused an entire half of the array to be ignored. I was able to fix the bug by iterating through the array for arr.length/2 many times and swapping the values for each index on either end of the array from the outside in. A counter, "num" helps keep track of the contents within the first indices that get swapped with the indices in the end half of the array. 
   
 
-## **PART 2 - Researching Commands**
+## **PART 2 - Researching *grep* Commands**
+1. --color command
+   *Example 1: In the below example, I used the "--color" grep command to highlight all the instances when the string "base pair" appears in the /technical/plos file. This command is helpful for searching where the string is in a certain file as opposed to just printing the lines that the string appears in. ![Image]()
