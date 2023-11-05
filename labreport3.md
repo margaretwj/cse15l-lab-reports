@@ -54,5 +54,6 @@ Monday 4PM - 6PM <br />
    * *Example 2:* In this example, I used the "--color" grep command to find the same base pair string within a specific file "journal.pbio.0020190.txt". This works similarly as the example above and is useful in locating the specific string within a specific file. ![Image](--color_ex2.png)
 2. **-n command**
    *  [-n Research Source](https://man7.org/linux/man-pages/man1/grep.1.html)
-   *  *Example 1:* The first example uses the "-n" grep command to print out the line number of the string that is being searched for. So in the plos file "journal.pbio.0020190.txt", the string "base pair" is used in line 22 and 31. This is useful in discovering where in relation to the rest of the text a certain string is mentioned. 
+   *  *Example 1:* The first example uses the "-n" grep command to print out the line number of the string that is being searched for. So in the plos file "journal.pbio.0020190.txt", the string "base pair" is used in line 22 and 31. This is useful in discovering where in relation to the rest of the text a certain string is mentioned. ![Image](-n_ex1.png)
+   *  *Example 2:* This second example uses the "-n" grep command when given a list of files to search through. In this case, the directory that is given is "technical/government/Alcohol_Problems/*" and the string searched for is "emergency". This command is useful in looking at the overall specific location of a string across multiple files in a directory. ![Image]() 
 
