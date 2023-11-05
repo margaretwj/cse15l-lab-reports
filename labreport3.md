@@ -55,5 +55,8 @@ Monday 4PM - 6PM <br />
 2. **-n command**
    *  [-n Research Source](https://man7.org/linux/man-pages/man1/grep.1.html)
    *  *Example 1:* The first example uses the "-n" grep command to print out the line number of the string that is being searched for. So in the plos file "journal.pbio.0020190.txt", the string "base pair" is used in line 22 and 31. This is useful in discovering where in relation to the rest of the text a certain string is mentioned. ![Image](-n_ex1.png)
-   *  *Example 2:* This second example uses the "-n" grep command when given a list of files to search through. In this case, the directory that is given is "technical/government/Alcohol_Problems/*" and the string searched for is "emergency". This command is useful in looking at the overall specific location of a string across multiple files in a directory. ![Image]() 
+   *  *Example 2:* This second example uses the "-n" grep command when given a list of files to search through. In this case, the directory that is given is "technical/government/Alcohol_Problems/*" and the string searched for is "emergency". This command is useful in looking at the overall specific location of a string across multiple files in a directory. ![Image](-n_ex2.png)
+3. **--exclude and --exclude-dir command**
+   * [--exclude and --exclude-dir Research Source](https://man7.org/linux/man-pages/man1/grep.1.html)
+   * *Example 1:* This first example uses the "--exclude" grep command to find all files with the string "base pair" in the plos directory except for in the file "journal.pbio.0020190.txt". This can be useful for when you want to not include the data from a certain file in your search. ![Image]
 
