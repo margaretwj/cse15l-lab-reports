@@ -29,6 +29,6 @@ Monday 4PM - 6PM <br />
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
   ```
-
+* **Symptom**:
 
 ## **PART 2 - Researching Commands**
