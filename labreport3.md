@@ -12,8 +12,8 @@ Monday 4PM - 6PM <br />
     assertArrayEquals(new int[]{6, 5, 4, 3}, input2);
   }
   ```
-  * ReverseInPlace code with bug:
-    ```   static void reverseInPlace(int[] arr) {
+* ReverseInPlace code with bug:
+  ```   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) { //arr.length/2 = new
       arr[i] = arr[arr.length - i - 1];
     }
