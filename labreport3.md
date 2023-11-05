@@ -51,4 +51,4 @@ Monday 4PM - 6PM <br />
 1. **--color command**
    * [Research Source](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
    * *Example 1:* In the below example, I used the "--color" grep command to highlight all the instances when the string "base pair" appears in the files of the /technical/plos file directory. This command is helpful for searching where the string is in a certain file as opposed to just printing the lines that the string appears in. ![Image](--color_ex1.png)
-   * *Example 2:* 
+   * *Example 2:* In this example, I used the "--color" grep command to find the same base pair string within a specific file "journal.pbio.0020190.txt". This works similarly as the example above and is useful in locating the specific string within a specific file. ![Image](--color_ex2.png)
