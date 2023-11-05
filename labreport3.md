@@ -12,14 +12,6 @@ Monday 4PM - 6PM <br />
     assertArrayEquals(new int[]{6, 5, 4, 3}, input2);
   }
   ```
-* ReverseInPlace code (with bug):
-  ```
-    static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) { 
-      arr[i] = arr[arr.length - i - 1];
-      }
-    }
-  ```
 * **Non-failure inducing input:** the non-empty integer array { 3 }
 * Non-failure inducing test code:
   ``` 	@Test 
@@ -29,7 +21,29 @@ Monday 4PM - 6PM <br />
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
   ```
-* **Symptom**:
+* **Symptom:**
 ![Image](symptom_labreport3.png)
+
+* **The bug:**
+* Code before fixing the bug:
+  ```
+    static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) { 
+      arr[i] = arr[arr.length - i - 1];
+      }
+    }
+  ```
+* Code after fixing the bug:
+  ```
+    static void reverseInPlace(int[] arr) {
+    int num; //new
+    for(int i = 0; i < arr.length/2; i += 1) { //arr.length/2 = new
+      num = arr[i]; //new
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = num; //new
+    }
+    }
+  ```
+  
 
 ## **PART 2 - Researching Commands**
