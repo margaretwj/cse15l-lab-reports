@@ -4,14 +4,16 @@ Monday 4PM - 6PM <br />
 
 ## **PART 1 - ReverseInPlace Bug**
 * **Failure inducing input:** the non-empty integer array {3, 4, 5, 6}
-* Test code: ```  @Test
+* Test code:
+  ```  @Test
   public void testReverseInPlace2() {
     int[] input2 = {3, 4, 5, 6};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{6, 5, 4, 3}, input2);
   }
   ```
-  * ReverseInPlace code with bug: ```   static void reverseInPlace(int[] arr) {
+  * ReverseInPlace code with bug:
+    ```   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) { //arr.length/2 = new
       arr[i] = arr[arr.length - i - 1];
     }
