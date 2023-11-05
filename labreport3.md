@@ -49,6 +49,10 @@ Monday 4PM - 6PM <br />
 
 ## **PART 2 - Researching *grep* Commands**
 1. **--color command**
-   * [Research Source](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+   * [--color Research Source](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
    * *Example 1:* In the below example, I used the "--color" grep command to highlight all the instances when the string "base pair" appears in the files of the /technical/plos file directory. This command is helpful for searching where the string is in a certain file as opposed to just printing the lines that the string appears in. ![Image](--color_ex1.png)
    * *Example 2:* In this example, I used the "--color" grep command to find the same base pair string within a specific file "journal.pbio.0020190.txt". This works similarly as the example above and is useful in locating the specific string within a specific file. ![Image](--color_ex2.png)
+2. **-n command**
+   *  [-n Research Source](https://man7.org/linux/man-pages/man1/grep.1.html)
+   *  *Example 1:* The first example uses the "-n" grep command to print out the line number of the string that is being searched for. So in the plos file "journal.pbio.0020190.txt", the string "base pair" is used in line 22 and 31. This is useful in discovering where in relation to the rest of the text a certain string is mentioned. 
+
