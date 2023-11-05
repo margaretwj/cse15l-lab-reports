@@ -30,5 +30,6 @@ Monday 4PM - 6PM <br />
 	}
   ```
 * **Symptom**:
+[!Image](symptom_labreport3.png)
 
 ## **PART 2 - Researching Commands**
