@@ -57,13 +57,14 @@ class StringServer {
 *     num changes from the integer, 4 to 5
 
 ## **PART 2** <br />
-
-## **Id public and private**
-![Image](id_pub_priv.png) <br />
-Using the path */Users/margaretjones/.ssh* I was able to find both the private key (id_rsa) and public key (id_rsa.pub) for my SSH key to login to ieng6. 
+ 
 ## **Private key**
-![Image]() <br />
+![Image](privkey.png) <br />
 I used "cd .ssh" to get to the directory for the private key from my home directory. Therefore, the path for the private ssh key is /c/Users/margaretjones/.ssh/id_rsa 
+
+## **Public key**
+![Image]() <br />
+The path to the public key from the default path of the ieng6 server is */.ssh/authorized_keys*. The default path for ieng6 is */home/linux/ieng6/cs15lfa23/cs15lfa23gh*. All together, the path to the public key is */home/linux/ieng6/cs15lfa23/cs15lfa23gh/.ssh/authorized_keys*. 
 
 ## **Login to course-specific account on ieng6 without the password:** <br />
 ![Image](no_pass_serv.png)
