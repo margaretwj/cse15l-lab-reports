@@ -60,7 +60,7 @@ class StringServer {
  
 ## **Private key**
 ![Image](privkey.png) <br />
-I used "cd .ssh" to get to the directory for the private key from my home directory. Therefore, the path for the private ssh key is /c/Users/margaretjones/.ssh/id_rsa 
+I used "cd .ssh" to get to the directory for the private key from my home directory. Therefore, the path for the private ssh key is **/Users/margaretjones/.ssh/id_rsa*
 
 ## **Public key**
 ![Image](publickey.png) <br />
