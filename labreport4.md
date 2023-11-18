@@ -2,4 +2,4 @@
 Margaret Jones <br />
 Monday 4PM - 6PM <br />
 
-## STEP ONE
+## 4. log into ieng6
