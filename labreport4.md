@@ -14,6 +14,6 @@ Monday 4PM - 6PM <br />
   ```g``` ```i``` ```t``` ```<space>``` ```c``` ```l``` ```o``` ```n``` ```e``` ```<space>``` navigate to the webpage of my lab-7 fork and click on SSH URL ```<Command-C>``` navigate back to ieng6 terminal ```<Command-V>``` ```<enter>```
 
 ## 5. Run the tests, demonstrating that they fail
-
+![Image](step6.png)
 * **key's pressed:**
   ```b``` ```a``` ```s``` ```h``` ```<space>``` ```t``` ```<tab>``` ```<enter>```
