@@ -22,6 +22,12 @@ Monday 4PM - 6PM <br />
 * Using the "bash" command to run test.sh in the lab7 directory. Instead of typing out test.sh I used tab to autocomplete the filename.
 
 ## 7. Edit the code file to fix the failing test
+![Image](step7.png)
+* ```v``` ```i``` ```m``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```<enter>``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>```
+* Entered vim with ListExamples.java which I typed by using tab to autocomplete ListExamples and java. Then used the search function in normal mode to look for the comment that says to change the index and used j and l to move down and to the right twice to access the index number. Then deleted the "1" with vim command "x", entered insert mode with "i" and typed the correct index. Then exited insert mode with ESC and saved and quit vim with ":wq".
 
-* ```v``` ```i``` ```m``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```<enter>``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q```
-* Entered vim with ListExamples.java which I typed by using tab to autocomplete ListExamples and java. Then used the search function in normal mode to look for the comment that says to change the index and used j and l to move down and to the right twice to access the index number. Then deleted the "1" with vim command "x", entered insert mode with "i" and typed the correct index. Then exited insert mode with ESC and saved and quit vim with ":wq". 
+## 8. Run the tests, demonstrating that they now succeed
+
+* ```<up>``` ```<up>``` ```<enter>```
+* Since I used "bash test.sh" two commands ago I can use the up arrow twice in the terminal to rerun that same command to rerun the tests and see if they pass. 
+
