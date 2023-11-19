@@ -3,7 +3,7 @@ Margaret Jones <br />
 Monday 4PM - 6PM <br />
 
 ## 4. log into ieng6
-
+![Image](step4.png)
 * **key's pressed:**
   ```
   ssh<space>cs15lfa23gh@ieng6.ucsd.edu<enter>
