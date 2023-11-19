@@ -9,6 +9,6 @@ Monday 4PM - 6PM <br />
 
 
 ## 5. Clone your fork of the repository from your Github account (using the SSH URL)
-
+![Image](step5.png)
 * **key's pressed:**
   ```g``` ```i``` ```t``` ```<space>``` ```c``` ```l``` ```o``` ```n``` ```e``` ```<space>``` navigate to the webpage of my lab-7 fork and click on SSH URL ```<Command-C>``` navigate back to ieng6 terminal ```<Command-V>``` ```<enter>```
