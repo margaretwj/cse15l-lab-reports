@@ -4,7 +4,7 @@ Monday 4PM - 6PM <br />
 
 ## 4. log into ieng6
 
-* key's pressed:
+* **key's pressed:**
   ```
   ssh<space>cs15lfa23gh@ieng6.ucsd.edu<enter>
   ```
