@@ -16,4 +16,4 @@ Monday 4PM - 6PM <br />
 ## 5. Run the tests, demonstrating that they fail
 
 * **key's pressed:**
-  ```b``` ```a``` ```s``` ```h``` ```t``` ```<tab>``` ```<enter>```
+  ```b``` ```a``` ```s``` ```h``` ```<space>``` ```t``` ```<tab>``` ```<enter>```
