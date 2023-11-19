@@ -23,7 +23,7 @@ Monday 4PM - 6PM <br />
 
 ## 7. Edit the code file to fix the failing test
 ![Image](step7.png)
-* ```v``` ```i``` ```m``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```<enter>``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>```
+* ```v``` ```i``` ```m``` ```<space>``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```<enter>``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>```
 * Entered vim with ListExamples.java which I typed by using tab to autocomplete ListExamples and java. Then used the search function in normal mode to look for the comment that says to change the index and used j and l to move down and to the right twice to access the index number. Then deleted the "1" with vim command "x", entered insert mode with "i" and typed the correct index. Then exited insert mode with ESC and saved and quit vim with ":wq".
 
 ## 8. Run the tests, demonstrating that they now succeed
@@ -33,6 +33,6 @@ Monday 4PM - 6PM <br />
 
 ## 9. Commit and push the resulting change to your Github account
 ![Image](step9.png)
-* ```g``` ```i``` ```t``` ```c``` ```o``` ```m``` ```m``` ```i``` ```t``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```<enter>``` ```i``` ```C``` ```o``` ```m``` ```m``` ```i``` ```t``` ```1``` ```!``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>``` ```g``` ```i``` ```t``` ```p``` ```u``` ```s``` ```h``` ```<enter>```
+* ```g``` ```i``` ```t``` ```<space>``` ```c``` ```o``` ```m``` ```m``` ```i``` ```t``` ```<space>``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```<enter>``` ```i``` ```C``` ```o``` ```m``` ```m``` ```i``` ```t``` ```<space>``` ```1``` ```!``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>``` ```g``` ```i``` ```t``` ```<space>``` ```p``` ```u``` ```s``` ```h``` ```<enter>```
 * Used "git commit" command for ListExamples.java which I typed out using tab to autofill again. Once this command was run, I entered insert mode using "i" to write the commit message: "Commit 1!" and then pressed ESC to exit insert mode. I then saved and quit the commit with :wq and pushed the commit to my fork of Lab7 with the "git push" terminal command. 
 
