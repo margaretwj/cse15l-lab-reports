@@ -32,7 +32,7 @@ Monday 4PM - 6PM <br />
 * Since I used "bash test.sh" two commands ago I can use the up arrow twice in the terminal to rerun that same command to rerun the tests and see if they pass.
 
 ## 9. Commit and push the resulting change to your Github account
-
+![Image](step9.png)
 * ```g``` ```i``` ```t``` ```c``` ```o``` ```m``` ```m``` ```i``` ```t``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```<enter>``` ```i``` ```C``` ```o``` ```m``` ```m``` ```i``` ```t``` ```1``` ```!``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>``` ```g``` ```i``` ```t``` ```p``` ```u``` ```s``` ```h``` ```<enter>```
 * Used "git commit" command for ListExamples.java which I typed out using tab to autofill again. Once this command was run, I entered insert mode using "i" to write the commit message: "Commit 1!" and then pressed ESC to exit insert mode. I then saved and quit the commit with :wq and pushed the commit to my fork of Lab7 with the "git push" terminal command. 
 
