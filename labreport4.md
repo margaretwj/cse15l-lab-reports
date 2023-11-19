@@ -6,14 +6,21 @@ Monday 4PM - 6PM <br />
 ![Image](step4.png)
 * **key's pressed:**
   ```s``` ```s``` ```h``` ```<space>``` ```c``` ```s``` ```1``` ```5``` ```l``` ```f``` ```a``` ```2``` ```3``` ```g``` ```h``` ```@``` ```i``` ```e``` ```n``` ```g``` ```6``` ```.``` ```u``` ```c``` ```s``` ```d``` ```.``` ```e``` ```d``` ```u``` ```<enter>```
+* Used ssh command and then typed in my entire account name to access ieng6.
 
 
 ## 5. Clone your fork of the repository from your Github account (using the SSH URL)
 ![Image](step5.png)
 * **key's pressed:**
   ```g``` ```i``` ```t``` ```<space>``` ```c``` ```l``` ```o``` ```n``` ```e``` ```<space>``` navigate to the webpage of my lab-7 fork and click on SSH URL ```<Command-C>``` navigate back to ieng6 terminal ```<Command-V>``` ```<enter>```
+* Used the "git clone" command followed by the SSH URL that I copied from my fork of the lab7 repository on github. 
 
-## 5. Run the tests, demonstrating that they fail
+## 6. Run the tests, demonstrating that they fail
 ![Image](step6.png)
 * **key's pressed:**
   ```b``` ```a``` ```s``` ```h``` ```<space>``` ```t``` ```<tab>``` ```<enter>```
+* Using the "bash" command to run test.sh in the lab7 directory. Instead of typing out test.sh I used tab to autocomplete the filename.
+
+## 7. Edit the code file to fix the failing test
+
+* ```v``` ```i``` ```m``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q``` 
