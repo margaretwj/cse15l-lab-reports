@@ -23,4 +23,5 @@ Monday 4PM - 6PM <br />
 
 ## 7. Edit the code file to fix the failing test
 
-* ```v``` ```i``` ```m``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q``` 
+* ```v``` ```i``` ```m``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```/``` ```c``` ```h``` ```a``` ```n``` ```g``` ```e``` ```<enter>``` ```j``` ```l``` ```l``` ```x``` ```i``` ```2``` ```<ESC>``` ```:``` ```w``` ```q```
+* Entered vim with ListExamples.java which I typed by using tab to autocomplete ListExamples and java. Then used the search function in normal mode to look for the comment that says to change the index and used j and l to move down and to the right twice to access the index number. Then deleted the "1" with vim command "x", entered insert mode with "i" and typed the correct index. Then exited insert mode with <ESC> and saved and quit vim with ":wq". 
