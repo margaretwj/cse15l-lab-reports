@@ -33,6 +33,6 @@ Monday 4PM - 6PM <br />
 
 ## 9. Commit and push the resulting change to your Github account
 ![Image](step9.png)
-* ```g``` ```i``` ```t``` ```<space>``` ```c``` ```o``` ```m``` ```m``` ```i``` ```t``` ```<space>``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```<enter>``` ```i``` ```C``` ```o``` ```m``` ```m``` ```i``` ```t``` ```<space>``` ```1``` ```!``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>``` ```g``` ```i``` ```t``` ```<space>``` ```p``` ```u``` ```s``` ```h``` ```<enter>```
-* Used "git commit" command for ListExamples.java which I typed out using tab to autofill again. Once this command was run, I entered insert mode using "i" to write the commit message: "Commit 1!" and then pressed ESC to exit insert mode. I then saved and quit the commit with :wq and pushed the commit to my fork of Lab7 with the "git push" terminal command. 
+* ```g``` ```i``` ```t``` ```<space>``` ```a``` ```d``` ```d``` ```<space>``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```<enter>``` ```g``` ```i``` ```t``` ```<space>``` ```c``` ```o``` ```m``` ```m``` ```i``` ```t``` ```<space>``` ```L``` ```<tab>``` ```.``` ```j``` ```<tab>``` ```<enter>``` ```i``` ```C``` ```o``` ```m``` ```m``` ```i``` ```t``` ```<space>``` ```1``` ```!``` ```<ESC>``` ```:``` ```w``` ```q``` ```<enter>``` ```g``` ```i``` ```t``` ```<space>``` ```p``` ```u``` ```s``` ```h``` ```<enter>```
+* Used "git add" and "git commit" command for ListExamples.java which I typed out using tab to autofill again. Once these commands were run, I entered insert mode using "i" to write the commit message: "Commit 1!" and then pressed ESC to exit insert mode. I then saved and quit the commit with :wq and pushed the commit to my fork of Lab7 with the "git push" terminal command. 
 
