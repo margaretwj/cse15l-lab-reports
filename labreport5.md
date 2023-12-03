@@ -15,7 +15,7 @@ should says that the method should take the array {5, 10} and reverse it to {10,
 
 ## 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 Student explanation of bug: "I tried a larger example with an array {5, 10, 13, 15, 16, 17} and got the symptom that instead of 16, the output array had a value of 17. Looking back at the code in the body of my for loop, I realized that newArray was not being assigned incremental values of the input array but was instead being assigned the [arr.length - 1] element of the input array for all elements. So the output array for this example was {16, 16, 16, 16, 16, 16} instead of {17, 16, 15, 13, 10, 5}.
-![Image]()
+![Image](symptom_fix.png)
 
 
 
