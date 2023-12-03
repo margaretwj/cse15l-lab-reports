@@ -6,10 +6,11 @@ Monday 4PM - 6PM <br />
 
 ## 1. Original student Edstem post
 * Student message: "I am getting an error from running the testReversed2(ArrayTests) against my "reversed" method. The test
-should take the array {5, 10} and reverse it to {10, 5}. The *symptom* is that the test expects 5 but gets 10 which means that the 
-method is incorrectly returning {10, 10}. I think that the method is somehow stuck on adding the same index of the old array into
-the new array I just am unsure where this is happening in the code. I believe it is either the for loop or the body of the for loop. 
-Is there a suggested way for me to solve this bug?"
+should says that the method should take the array {5, 10} and reverse it to {10, 5}. The **symptom** is that the test expects 5 but gets 10 which means that the method is incorrectly returning {10, 10}. I think that the method is somehow stuck on adding the same index of the old array into the new array I just am unsure where this is happening in the code. I believe it is either the for loop or the body of the for loop. Below, I have attached a screenshot of the symptom. Is there a suggested way for me to solve this bug?"
+
+
+## 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+
 
 
 # Part 2 - Reflection
