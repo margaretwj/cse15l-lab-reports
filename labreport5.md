@@ -30,7 +30,8 @@ Student explanation of bug: "I tried a larger example with an array {5, 10, 13, 
   ```
 * The contents of each file before fixing the bug:
   * **ArrayExamples.java:** ![Image](ArrayExamples.png)
-  * **ArrayTests.java:** ![Image]() 
+  * **ArrayTests.java:** ![Image](ArrayTests.png)
+  * **test.sh:** ![Image]()
 * The full command line (or lines) you run to trigger the bug: ``` bash test.sh ```
 * Description of what to edit to fix the bug: Navigate to the body of the for loop the "reversed" method in ArrayExamples.java. Instead of the line ```newArray[i] = arr[arr.length - 1];``` subtract "i" from arr.length to the index of arr ```newArray[i] = arr[arr.length - i - 1];``` so that each index of arr is moved into newArray as opposed to only the index at arr.length - 1. 
 
