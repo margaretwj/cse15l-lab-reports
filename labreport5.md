@@ -18,7 +18,7 @@ Student explanation of bug: "I tried a larger example with an array {5, 10, 13, 
 ![Image](symptom_fix.png)
 
 ## 4. All the information needed about the setup
-* File & directory structure needed:
+* *File & directory structure needed:*
   ```
   --> BUG EXAMPLE
     --> lib
@@ -28,12 +28,12 @@ Student explanation of bug: "I tried a larger example with an array {5, 10, 13, 
     ArrayTests.java
     test.sh
   ```
-* The contents of each file before fixing the bug:
+* *The contents of each file before fixing the bug:*
   * **ArrayExamples.java:** ![Image](ArrayExamples.png)
   * **ArrayTests.java:** ![Image](ArrayTests.png)
-  * **test.sh:** ![Image]()
-* The full command line (or lines) you run to trigger the bug: ``` bash test.sh ```
-* Description of what to edit to fix the bug: Navigate to the body of the for loop the "reversed" method in ArrayExamples.java. Instead of the line ```newArray[i] = arr[arr.length - 1];``` subtract "i" from arr.length to the index of arr ```newArray[i] = arr[arr.length - i - 1];``` so that each index of arr is moved into newArray as opposed to only the index at arr.length - 1. 
+  * **test.sh:** ![Image](test.png)
+* *The full command line (or lines) you run to trigger the bug:* ``` bash test.sh ```
+* *Description of what to edit to fix the bug:* Navigate to the body of the for loop in the "reversed" method in ArrayExamples.java. Instead of the line ```newArray[i] = arr[arr.length - 1];``` subtract "i" from arr.length resulting in: ```newArray[i] = arr[arr.length - i - 1];```. In this manner, each index of arr from back to front is moved into newArray as opposed to only the index at arr.length - 1. 
 
 
 
