@@ -31,7 +31,7 @@ Monday 4PM - 6PM <br />
   * **ArrayTests.java:** ![Image](ArrayTests.png)
   * **test.sh:** ![Image](test.png)
 * *The full command line (or lines) you run to trigger the bug:* ``` bash test.sh ```
-* *Description of what to edit to fix the bug:* Navigate to the body of the for loop in the "reversed" method in ArrayExamples.java. Instead of the line ```newArray[i] = arr[arr.length - 1];``` subtract "i" from arr.length resulting in: ```newArray[i] = arr[arr.length - i - 1];```. In this manner, each index of arr from back to front is moved into newArray as opposed to only the index at arr.length - 1.
+* *Description of what to edit to fix the bug:* Navigate to the body of the for loop in the "reversed" method in ArrayExamples.java. Instead of the line ```newArray[i] = arr[arr.length - 1];``` subtract "i" from arr.length resulting in: ```newArray[i] = arr[arr.length - i - 1];```. In this manner, each index of arr from back to front is moved into newArray as opposed to only the index at arr.length - 1. <br />
     *Fixed code:* ![Image](fixed_code.png)
 
 
